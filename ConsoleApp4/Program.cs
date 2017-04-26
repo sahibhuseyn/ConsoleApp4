@@ -1,0 +1,48 @@
+﻿using System;
+using System.Linq;
+
+namespace ConsoleApp4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*var param = "Salam heci naber?";
+
+            var punctuation = param.Where(Char.IsPunctuation).Distinct().ToArray();
+            var nwords = param.Split().Select(x => x.Trim(punctuation));
+
+            Console.WriteLine(param.Substring(0,5)+"\n"+param.Substring(6,5)+"\n"+param.Substring(11,6)+"\n");
+            Console.WriteLine(nwords);
+
+            string[] words = param.Split(' ');
+            foreach (string word in words)
+            {  
+                Console.WriteLine(word);
+            }*/
+            //string[] daysofweek =
+            //{
+            //    "sunday",
+            //    "monday",
+            //    "tuesday",
+            //    "wednesday",
+            //    "thursday",
+            //    "friday",
+            //    "saturday"
+            //};
+            //for (var i = 0; i < daysofweek.length; i++)
+            //{
+            //    console.writeline(daysofweek[i]);
+            //}
+            //char[] arr = { 'g', 'h', 'f', 'a', 'f', 'h','g'};
+            //bool symetric = true;
+            //for (int i = 0; i < arr.length - i - 1; ++i)
+            //{
+            //    symetric = symetric & arr[i] == arr[arr.length - i - 1];
+            //}
+
+            //console.writeline("symetric?  {0}", symetric);
+            
+        }
+    }
+}
