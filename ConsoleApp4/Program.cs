@@ -42,7 +42,19 @@ namespace ConsoleApp4
             //}
 
             //console.writeline("symetric?  {0}", symetric);
-            
+
+            string[] Arr =
+            {
+                "one",
+                "two",
+                "three",
+                "four",
+                "five"
+            };
+            for (var i = 0; i < Arr.Length; i++)
+            {
+                Console.WriteLine("elem[{0}]={1}",i,Arr[i]);
+            }
         }
     }
 }
