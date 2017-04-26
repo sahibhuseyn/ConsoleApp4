@@ -43,18 +43,62 @@ namespace ConsoleApp4
 
             //console.writeline("symetric?  {0}", symetric);
 
-            string[] Arr =
+            //string[] Arr =
+            //{
+            //    "one",
+            //    "two",
+            //    "three",
+            //    "four",
+            //    "five"
+            //};
+            //for (var i = 0; i < Arr.Length; i++)
+            //{
+            //    Console.WriteLine("elem[{0}]={1}",i,Arr[i]);
+            //}
+
+
+            //string[] Arr =
+            //{
+            //    "one",
+            //    "two",
+            //    "three",
+            //    "four",
+            //    "five"
+            //};
+            //for (var i = Arr.Length - 1; i > 0; i--)
+            //{
+            //    Console.WriteLine("elem[{0}]={1}", i, Arr[i]);
+            //}
+
+            //string[] Arr =
+            //{
+            //    "one",
+            //    "two",
+            //    "three",
+            //    "four",
+            //    "five"
+            //};
+            //for (var i = Arr.Length - 1; i > 0; i--)
+            //{
+            //    Console.WriteLine("elem[{0}]={1}", i/2, Arr[i]);
+            //}
+            string str = "salam necesen ne var ne yox?";
+            var letters = str.Split();
+
+            foreach (var letter in letters)
             {
-                "one",
-                "two",
-                "three",
-                "four",
-                "five"
-            };
-            for (var i = 0; i < Arr.Length; i++)
-            {
-                Console.WriteLine("elem[{0}]={1}",i,Arr[i]);
+                if (letter.Contains('a'))
+                {
+                    var change = str.Replace('a','x') ;
+                    Console.WriteLine(change);
+                }
+             }
+                //string str = "salam necesen ne var ne yox?";
+                //char Contains = 'a';
+
+                //int i = str.IndexOf('a');
+
+                //Console.WriteLine("found '{0}' in '{1}' ", Contains, str);
             }
-        }
     }
 }
